@@ -20,7 +20,7 @@ if (!isset($_SESSION['user_id'])) {
         <div class="nav-links">
             <a href="dashboard.php">Dashboard</a>
             <a href="products_list.php">Products</a>
-            <a href="product_suppliers.php">Suppliers Join</a>
+            <a href="product_suppliers.php">Supplier Mapping</a>
             <a href="logout.php">Logout (<?= htmlspecialchars($_SESSION['username']); ?>)</a>
         </div>
     </div>
@@ -28,7 +28,7 @@ if (!isset($_SESSION['user_id'])) {
 <main class="container">
     <div class="card">
         <h2>Welcome, <?= htmlspecialchars($_SESSION['username']); ?>!</h2>
-        <p>Access inventory records, manage CRUD operations, and view supplier relations.</p>
+        <p></p>
         <div style="margin-top: 20px; display: flex; gap: 10px;">
             <a href="products_list.php" class="btn">Manage Products</a>
             <a href="product_suppliers.php" class="btn">View Supplier Mappings</a>

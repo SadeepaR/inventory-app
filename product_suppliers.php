@@ -21,7 +21,7 @@ $records = $pdo->query($query)->fetchAll();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Supplier Join - EFL Logistics</title>
+    <title>Supplier Join - EFL</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -31,14 +31,14 @@ $records = $pdo->query($query)->fetchAll();
         <div class="nav-links">
             <a href="dashboard.php">Dashboard</a>
             <a href="products_list.php">Products</a>
-            <a href="product_suppliers.php">Suppliers Join</a>
+            <a href="product_suppliers.php">Supplier Mapping</a>
             <a href="logout.php">Logout</a>
         </div>
     </div>
 </nav>
 <main class="container">
     <div class="card">
-        <h2>Product & Supplier Direct Directory (JOIN Query)</h2>
+        <h2>Product & Supplier Directory</h2>
         <table class="table">
             <thead>
                 <tr>

@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register - EFL Logistics</title>
+    <title>Register - EFL</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </head>
@@ -51,7 +51,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </nav>
 <main class="container">
     <div class="card" style="max-width: 500px; margin: auto;">
-        <h2>Register</h2>
+        <h2 style="text-align: center;">Register</h2>
         <?php if (!empty($errors)): ?>
             <div class="alert alert-error">
                 <?php foreach ($errors as $error) echo "<p>$error</p>"; ?>

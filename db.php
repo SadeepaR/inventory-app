@@ -2,7 +2,7 @@
 $host = '127.0.0.1';
 $db   = 'efl_logistics_db';
 $user = 'root';
-$pass = 'sadeepa2000';
+$pass = ''; // Add Your MySQL Password
 $charset = 'utf8mb4';
 
 $dsn = "mysql:host=$host;dbname=$db;charset=$charset";

@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - EFL Logistics</title>
+    <title>Login - EFL</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -45,7 +45,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </nav>
 <main class="container">
     <div class="card" style="max-width: 450px; margin: auto;">
-        <h2>Login</h2>
+        <h2 style="text-align: center;">Login</h2>
         <?php if ($error): ?>
             <div class="alert alert-error"><?= htmlspecialchars($error); ?></div>
         <?php endif; ?>

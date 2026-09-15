@@ -1,5 +1,4 @@
 $(document).ready(function () {
-  // 1. AJAX Real-time Product Search
   $("#productSearch").on("keyup", function () {
     const query = $(this).val().trim();
     const $resultsBox = $("#searchResults");
@@ -33,7 +32,6 @@ $(document).ready(function () {
     }
   });
 
-  // 2. jQuery Form Validation for Add/Edit Product
   $("#productForm").on("submit", function (e) {
     let errors = [];
     const name = $("#product_name").val().trim();
